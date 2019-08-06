@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[PUMA.COM | Forever Faster]]>
+    </line>
+    <line>
+      <![CDATA[title is matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14593" started-at="2019-08-02T12:16:39Z" finished-at="2019-08-02T12:16:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14593" started-at="2019-08-02T12:16:39Z" finished-at="2019-08-02T12:16:54Z">
+      <class name="scripts.Puma_Test">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:scripts.Puma_Test@17d677df]" name="openApp" is-config="true" duration-ms="10397" started-at="2019-08-02T12:16:39Z" finished-at="2019-08-02T12:16:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testlogintoPuma()[pri:0, instance:scripts.Puma_Test@17d677df]" name="testlogintoPuma" duration-ms="3014" started-at="2019-08-02T12:16:49Z" finished-at="2019-08-02T12:16:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PUMA.COM | Forever Faster]]>
+            </line>
+            <line>
+              <![CDATA[title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testlogintoPuma -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:scripts.Puma_Test@17d677df]" name="closeApp" is-config="true" duration-ms="1136" started-at="2019-08-02T12:16:52Z" finished-at="2019-08-02T12:16:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testlogintoPuma status=SUCCESS method=Puma_Test.testlogintoPuma()[pri:0, instance:scripts.Puma_Test@17d677df] output=PUMA.COM | Forever Faster]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- scripts.Puma_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
